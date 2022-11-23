@@ -31,7 +31,7 @@
 
 ## Live link
 
-- [Theme Changer]()
+- [Theme Changer](https://js-assig-2-theme-changer.netlify.app/)
 
 ---
 
