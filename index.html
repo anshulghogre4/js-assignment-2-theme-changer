@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                steel: 'rgb(68 64 60)',
+                whitenew: '#f1f2f6',
+                newblack: '#2f3542',
+              }
+              
+            }
+          }
+        }
+      </script>
+
+
+    <title>ThemeChanger</title>
+</head>
+<body class="dark:bg-steel">
+
+    
+    <!--  Header -->
+        <nav class="h-[10vh] flex flex-row justify-between  items-center border-b-2 border-slate-800  bg-whitenew dark:bg-yellow-500 ">
+
+            <div class="f  ">
+                <img class="w-[4rem] ml-[2rem] dark:drop-shadow-2xl  dark:shadow dark:shadow-yellow-500 " src=".//pngfind.com-batman-symbol-png-413451.png" alt="logo">
+
+            </div>
+
+            <!-- dark mode toggle -->
+            <div class="flex flex-row items-center m-[2rem] space-x-2">
+         <span class="  text-black dark:text-white font-semibold " >Light</span>   
+<label for="check" class=" bg-slate-200 dark:bg-slate-400 w-[4rem] h-[2.0em]  rounded-full relative cursor-pointer "  >
+
+      <input type="checkbox" id="check" class=" check sr-only peer ">
+    <span class="w-[1.5rem] h-[1.5rem] absolute left-1 top-1 bg-slate-400  rounded-[2rem] peer-checked:bg-black  peer-checked:translate-x-8  "></span>
+</label>
+<span class=" text-black dark:text-white font-semibold">Dark</span>
+</div>
+
+        </nav>
+
+
+
+
+ 
+  <!-- Main -->
+  
+
+ 
+
+  <section class="  " >
+    <div class="nodark mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 mt-[8rem]">
+      <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+        <div
+          class="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full"
+        >
+          <img
+            alt="batman"
+            src="./yulia-matvienko-ArA3S3k0wTU-unsplash.jpg"
+            class="absolute inset-0 h-full w-full object-cover "
+          />
+        </div>
+  
+        <div class="lg:py-24">
+          <h2 class="text-3xl font-bold sm:text-4xl">Batman on morning walk</h2>
+  
+          <p class="mt-4 text-gray-600">
+            C'mon!, Batman aswell loves to walk in the sunny morning.
+          </p>
+  
+         
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+ 
+    <section class="batman hidden dark:bg-steel">
+      <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 mt-[8rem]">
+        <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+          <div
+            class="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full  dark:shadow-xl dark:shadow-yellow-500 "
+          >
+            <img
+              alt="batman"
+              src="./sangeeth-n-Gt9zf1-icuQ-unsplash.jpg"
+              class="absolute inset-0 h-full w-full object-cover object-[40%,40%]"
+            />
+          </div>
+    
+          <div class="lg:py-24">
+            <h2 class="text-3xl dark:text-yellow-400 font-bold sm:text-4xl">I'm Batman</h2>
+    
+            <p class="mt-4 text-gray-600 dark:text-yellow-400">
+            He always work in the dark! he just borrowed a device from the ant-man because DC was not able to provide funds to him!
+            </p>
+    
+           
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
