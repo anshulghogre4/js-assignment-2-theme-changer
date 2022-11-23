@@ -37,4 +37,4 @@
 
 ### Credits
 
-- pictures are taken from pexels.com
+- Pictures are taken from pexels.com
